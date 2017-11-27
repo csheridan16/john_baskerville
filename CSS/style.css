@@ -23,6 +23,55 @@ body {width: 75%;
         color: #333,
     }
 }
+/*----------- LINKS ----------*/
+
+a {
+    color: #c06;
+    text-decoration: none}
+
+
+a:hover {
+    color:#006321;
+    border-bottom: 1px dotted;} 
+
+
+
+/*----------- NAVIGATION -----------*/
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: 0;
+    width 100%;
+    background-color: #333;
+    padding 1em 0; }
+
+
+nav ul {
+    text-align: center;}
+   text-transform: uppercase;
+  letter-spacing: 2px:} 
+
+nav ul li {
+display: inline;
+       margin: 20px; }
+
+nav a:link {
+    color: #fff
+}
+
+nav a:visited {
+    color: #fff
+}
+
+nav a:hover {
+    border-bottom: none;
+    color: #fff
+    } */
+
+    
+
 
 /*---------- TYPOGRAPHY -----------*/
 
