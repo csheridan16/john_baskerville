@@ -11,7 +11,7 @@ body {width: 75%;
     max-width: 786;
     font-family: Georgia, 'Times New Roman' serif;
          margin: auto;
-    background: #ffff;
+    background: #f0f0f0f0;
     color: #333;
     line-height: 1.8em;}
     
@@ -26,7 +26,7 @@ body {width: 75%;
 /*----------- LINKS ----------*/
 
 a {
-    color: #c06;
+    color: #FFFFFF;
     text-decoration: none}
 
 
@@ -45,7 +45,7 @@ nav {
     margin: 0;
     width 100%;
     background-color: #333;
-    padding 1em 0; }
+    padding 1em 10px; }
 
 
 nav ul {
@@ -61,15 +61,14 @@ nav a:link {
     color: #fff
 }
 
-nav a:visited {
-    color: #fff
-}
-
 nav a:hover {
     border-bottom: none;
     color: #fff
     } */
 
+nav a:visited {
+    color: #fff
+}
     
 
 
@@ -87,6 +86,10 @@ p, li blockquote {
 }
 
 h1 {font-size: 4em;
+    margin-top: 1em;
+    margin-bottom: 1em;}
+
+h2 {{font-size: 4em;
     margin-top: 1em;
     margin-bottom: 1em;}
 
