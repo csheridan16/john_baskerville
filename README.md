@@ -8,3 +8,4 @@ John Baskerville
 - [baskerville3](https://csheridan16.github.io/john_baskerville/baskerville3.html)
 - [baskerville4](https://csheridan16.github.io/john_baskerville/baskerville4.html)
 - [baskerville5](https://csheridan16.github.io/john_baskerville/baskerville5.html)
+- [baskerville6](https://csheridan16.github.io/john_baskerville/baskerville6.html)

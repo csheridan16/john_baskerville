@@ -9,7 +9,7 @@
 
 body {width: 75%;
     max-width: 786;
-    font-family: Georgia, 'Times New Roman' serif;
+    font-family: 'Libre Baskerville', serif;
          margin: auto;
     background: #f0f0f0f0;
     color: #333;
@@ -179,9 +179,9 @@ img{
     display: table;
     border-collapse: collapse;
     border-spacing: 2px;
-    margin-bottom: 2em;
-    
+    margin-bottom: 3em;   
 }
+
 caption {
     margin-bottom: 1.5em;
     text-transform: uppercase;
