@@ -70,7 +70,8 @@ nav {
     margin: 0;
     width 100%;
     background-color: #333;
-    padding 1em 0; }
+    padding 1em 0; 
+    font-size: 0.75em}
 
 
 nav ul {
@@ -105,11 +106,6 @@ a {
     text-decoration: none;
 }
 
-a:hover {
-    color: #006341;
-    border-bottom: 1px dotted;
-}
-
 nav {
     padding: 1em 0;
     border-top: 1px solid #333;
@@ -125,7 +121,7 @@ nav ul {
 
 nav ul li {
     display: inline;
-    margin: 20px;
+    margin: 50px;
 }
 
 nav a:hover {
