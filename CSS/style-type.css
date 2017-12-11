@@ -1,0 +1,128 @@
+/* css reset */
+
+* {
+    padding: 0;
+    margin: 0;
+    font-size: 100%;
+    line-height: 1em;
+}
+
+/* general styling */
+
+body {
+    width: 75%;
+    max-width: 700px;
+    margin: auto;
+    color: #000;
+    line-height: 1.8em;
+}
+
+h1, h2, h3 {
+    font-weight: normal;
+}
+
+h1 {
+    font-size: 5em;
+    margin-top: .1em;
+    margin-bottom: .2em;
+}
+
+h2 {
+    font-style: italic;
+    font-size: 2.25em;
+    margin-bottom: 1em;
+}
+
+h3 {
+    margin-top: 3em;
+    text-transform: uppercase;
+    font-size: 1.3em;
+}
+
+p {
+    margin-bottom: 2em;
+    line-height: 1.5em;
+}
+
+.intro {
+    font-size: 1.25em;
+    line-height: 1.5em;
+}
+
+blockquote {
+    padding: 1em 0 3em 1em;
+    font-size: 1.75em;
+    line-height: 1.4em;
+    margin: 0;
+    color: #808080;
+}
+
+blockquote cite {
+    font-size: .5em;
+}
+
+blockquote p {
+    font-style: italic;
+    hanging-punctuation: first;
+    text-indent: -0.5em;
+    margin-bottom: -0.01em;
+}
+
+hr {
+    border: 1px solid red;
+}
+
+
+
+/* VERSION 1: Libre Baskerville */
+
+.ver1 {
+    font-family: 'Libre Baskerville', serif;
+}
+
+.dropcap {
+    font-size: 800%;
+    float: centre;
+    line-height: .4em;
+}
+
+
+/* VERSION 2: Open Sans */
+
+.ver2 {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.caps {
+    text-transform: uppercase;
+}
+
+.indent {
+    text-indent: 1.5em;
+}
+
+.ver2 p+p {
+    margin-bottom: -1em;
+}
+
+.ver2 cite {
+    text-transform: uppercase;
+    font-style: normal;
+}
+
+
+
+
+/* VERSION 3: Arvo */
+
+.ver3 {
+    font-family: 'Arvo', serif;
+}
+
+.ver3 p, h3 {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.ver3 blockquote {
+    font-style: italic; 
+}
