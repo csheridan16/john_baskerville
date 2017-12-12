@@ -4,40 +4,64 @@
 <head>
     <meta charset="utf-8" />
     <title>John Baskerville</title>
-
-    <link href='CSS/style3.css' type='text/css' rel='stylesheet' />
-
-</head>
     
-/*-----------link to google fonts-------------*/
-    
-<link href="https://fonts.googleapis.com/css?family=Libre+Baskerville" rel="stylesheet">
+    <link href='CSS/style2.css' type='text/css' rel='stylesheet' />
 
-   
+/*-----------link to google fonts---------------*/
+    
+    <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville" rel="stylesheet">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style>
+body { 
+    background: #f0f0f0; 
+    color: #333;
+    line-height: 1.8em;
+    max-width: 900px
+	}
+    
+article {
+    display: flex; 
+	}
+section {	
+    width: 8em; 
+	color: 333;
+	margin: 10px;
+	padding: 10px;
+	}    
+
+.main{ flex: 3; }
+    
+.aside{ flex: 1;   
+        border-left: 1px solid #333;
+        padding-left: 3em}
+</style>        
+    
+    </head>
 <nav>
 			    <ul>
                     <li><a href="#the-man">The Man</a></li>
                     <li><a href="#the-typeface">The Typeface</a></li>
                     <li><a href="#mrs-eaves">Mrs Eaves</a></li>
 			    </ul>
-</nav>
- 
+			</nav>
     
 <body>
 	<article id="top">
 		<header>
                 <h1>John Baskerville</h1>
-                <h2>Letter Founder & Master Printer</h2>          
+                <h2>Letter Founder <span class='bigger'> & </span>Master Printer
+                </h2>          
             
-            <p1> John Baskerville (1706–1775) was an English  businessman whose entrepreneurial attentions included japanning and <em>papier-mâché</em>; he is, however, best remembered as a typographer and printer, not least for the design of the eponymous typeface which, to this very day, bears his name.</p1> 
+            <p1> <span class=p1>John Baskerville (1706–1775) was an English  businessman whose entrepreneurial attentions included japanning and <em>papier-mâché</em>; he is, however, best remembered as a typographer and printer, not least for the design of the eponymous typeface which, to this very day, bears his name.</span></p1> 
 		</header> 
-    
+              
+<section class="main">		
 		
-<section class="ver2">
-			
-           <h2 id="the-man">The Man</h2>
+			<h3 id="the-man">The Man</h3>
             
-<img src="images/john_baskerville.jpg" alt="A painting of John Baskerville by James Miller." />
+             <img src="images/john_baskerville.jpg" alt="A painting of John Baskerville by James Miller." />
         
         
 			<p2>Baskerville was born in the village of Wolverley, near Kidderminster in Worcestershire, and worked as a printer in Birmingham. Baskerville printed works for the University of Cambridge and, although an atheist, printed a splendid folio bible in 1763. His typefaces were greatly admired by Benjamin Franklin, a printer and fellow member of the Royal Society of Arts, who took the designs back to the newly-created United States, where they were adopted for most federal government publishing.</p2>
@@ -48,15 +72,13 @@
 				<p>"Having been an early admirer of the beauty of letters, I became insensibly desirous of contributing to the perfection of them. I formed to myself ideas of greater accuracy than had yet appeared, and had endeavoured to produce a set of types according to what I conceived to be their true proportion."</p>
 					<cite>—John Baskerville, preface to Milton, 1758 (Anatomy of a Typeface)</cite>
 			</blockquote>
-    
 <a href="#top">Top</a>
 			
 </section>
         
-
 		
 		<section>
-			<h2 id="the-typeface">The Typeface</h2>
+			<h3 id="the-typeface">The Typeface</h3>
             
             <img src="images/Type_Lecture_img_13.jpg" alt="Example of Baskerville." />
 			
@@ -66,10 +88,7 @@
 			
 			<p3>Baskerville's work was criticized by jealous competitors and soon fell out of favour. Since the 1920s, however, numerous revivals of Baskerville have been released by Linotype, Monotype, and other type foundries. Émigré released a popular revival of the typeface in 1996 called Mrs Eaves, named for Baskerville’s wife, Sarah Eaves. Baskerville represents the peak of Transitional type face design and bridges the gap between Old Style and Modern type design.</p3>
             
-            
-
-			
-<p4>Foundries that offer versions of Baskerville:</p4>
+			<p4>Foundries that offer versions of Baskerville:</p4>
 
              <table border="1" width="100%">
           
@@ -108,10 +127,11 @@
         </table>
 
 		</section>
+ 
+<section class="aside">        
+		
 
-       
-		<section>
-			<h2 id="mrs-eaves">Mrs Eaves</h2>
+			<h3 id="mrs-eaves">Mrs Eaves</h3>
             
             <img src="images/mrs-eaves.png" alt="A sample of the type font." />
             
@@ -119,20 +139,18 @@
 
 			    <a href="#top">Top</a>
 
-		</section>
+		
         
-        <section>    
+          
 			<p5>Mrs Eaves is named after Sarah Eaves, the woman who became John Baskerville's wife. As Baskerville was setting up his printing and type business, Mrs. Eaves moved in with him as a live-in housekeeper, eventually becoming his wife after the death of her first husband, Mr. Eaves. Mrs Eaves is a revival of the types of English printer and punchcutter John Baskerville, and is related to contemporary Baskerville typefaces.</p5>
 			
 			<p5>Like Baskerville, Mrs Eaves, cut by Zuzana Licko of Émigré, has a near vertical stress, departing from the Old Style model. Identifying characters, similar to Baskerville's types, are the lowercase <b>g</b> with its open lower counter and swashlike ear. Both the roman and italic uppercase <b>Q</b> have a flowing swashlike tail. The uppercase <b>C</b> has serifs at top and bottom; there is no serif at the apex of the central junction in uppercase <b>W</b>; and the uppercase <b>G</b> has a sharp spur suggesting a vestigial serif.</p5>
 
             <a href="#top">Top</a>
-            
-        </section>
-
-
+               
+</section>
 		
-        <footer>
+		<footer>
             <small>The content on this page is developed from original copy from Wikipedia and licensed under a Creative Commons Attribution-ShareAlike License, meaning you're allowed to copy, distribute and transmit the work as long as it is </small>
                 
             
