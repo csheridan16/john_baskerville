@@ -81,8 +81,8 @@ hr {
 }
 
 .dropcap {
-    font-size: 800%;
-    float: centre;
+    font-size: 300%;
+    float: left;
     line-height: .4em;
 }
 
