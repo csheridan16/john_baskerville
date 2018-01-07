@@ -1,0 +1,232 @@
+/* ---- CSS RESET ---- */
+
+* {
+    padding: 0;
+    margin: 0;
+    font-size:100%;
+    line-height: 1em;}
+
+/* -- Body CSS for all versions -- */
+
+body{
+    width:70%;
+    margin:auto;
+    line-height: 1.8em;
+    font-style: normal;
+    font-weight: 400;}
+
+/* -- Base font for all elements in version 1 --*/
+
+#version1 {
+    font-family: 'Libre Baskerville', serif;}
+
+/* -- heading CSS including font styles, sizes and margins --*/
+
+#version1h3{
+    font-size: 2.2em;
+    font-weight: 400;
+    margin-top:2em;
+    margin-bottom: 0.2em;}
+
+#version1h1{
+    font-size: 6.854em;
+    font-weight:400;
+    margin-bottom:0.2em;}
+
+#version1h2{
+    font-size: 3em;
+    font-style: italic;
+    font-weight: 400;
+    margin-bottom:1.5em;}
+
+/* -- paragraph CSS for version 1 --*/
+
+#version1 p {
+    line-height: 1.8em;}
+
+#version1p1 {
+    font-size:2.2em;
+    line-height: 1.4em;
+    margin-bottom: 2em;}
+
+#version1p2 {
+    font-size:1.7em;
+    margin-bottom: 2em;
+    margin-top: 3em;}
+
+#version1p3 {
+    font-size:1.7em;
+    margin-bottom: 2em;}
+
+/* -- Drop cap CSS for version 1 --*/
+
+#baskervillespan {
+    font-size: 5em;
+    line-height: 50%;
+    float:left;}
+
+/* -- Block Quote CSS for version 1 --*/
+
+#version1blockquote {
+    font-size: 2.3em;
+    line-height:1.4em;
+    color:dimgray;
+    font-style: italic;}
+
+#version1blockquote {
+    hanging-punctuation:first;
+    text-indent:-0.8em;}
+
+/* -- Block Quote citation CSS for version 1 --*/
+
+#version1 cite {
+    font-size:1.6em;
+    display: block;
+    margin-top: 1em;
+    margin-bottom: 4em;
+    color:gray;}
+
+
+/* -- Base font for all elements in version 3 --*/
+
+#version2 {
+    font-family: 'Open Sans', sans-serif;}
+
+/* -- heading CSS including font styles, sizes and margins --*/
+
+#version2h3{
+    font-size: 2em;
+    font-weight: 400;
+    margin-top:2em;
+    margin-bottom: 0.5em;}
+
+#version2h1{
+    font-size: 6.854em;
+    font-weight:400;
+    margin-bottom:0.2em;}
+
+#version2h2{
+    font-size: 3em;
+    font-style: italic;
+    font-weight: 400;
+    margin-bottom:1.5em;}
+
+/* -- paragraph CSS for version 3 --*/
+
+#version2 p {
+    line-height: 1.8em;
+    font-family: 'Open Sans', sans-serif;}
+
+#version2p3 {
+    text-indent: 2em;
+    margin-bottom: 2em;
+    font-size:1.5em}
+
+#version2p2 {
+    font-size:1.35em}
+
+#version2p1 {
+    font-size:1.7em;
+    line-height: 1.4em;
+    margin-bottom:1.4em;}
+
+#namespan {
+    text-transform: capitalize;}
+
+/* -- Block Quote CSS for version 3 --*/
+
+#version2blockquote {
+    font-size: 1.7em;
+    line-height:1.4em;
+    color:gray;
+    font-style: italic;
+    margin-bottom: 1em;}
+
+#version2blockquote {
+    hanging-punctuation:first;
+    text-indent:-0.6em;}
+
+/* -- Block Quote citation CSS for version 3 --*/
+
+#version2 cite {
+    font-size:1.3em;
+    display: block;
+    margin-top: 1em;
+    margin-bottom: 5em;
+    color:gray;}
+
+
+
+/* -- Base font for all elements in version 3 --*/
+
+#version3 {
+    font-family: 'Arvo', serif;}
+
+/* -- heading CSS including font styles, sizes and margins --*/
+
+#version3h3{
+    font-size: 2.2em;
+    font-weight: 400;
+    margin-top:2em;
+    margin-bottom: 0.5em;}
+
+#version3h1{
+    font-size: 6.854em;
+    font-weight:400;
+    margin-bottom:0.2em;}
+
+#version3h2{
+    font-size: 3em;
+    font-style: italic;
+    font-weight: 400;
+    margin-bottom:1.5em;}
+
+/* -- paragraph CSS for version 3 --*/
+
+#version3 p {
+    margin-bottom:2em;
+    line-height: 1.8em;
+    font-family: 'Open Sans', sans-serif;}
+
+#version3p1 {
+    font-size:1.6em;}
+
+#version3p2 {
+    font-size:1.35em;}
+
+#version3p3 {
+    font-size:1.35em;}
+
+/* -- Block Quote CSS for version 3 --*/
+
+#version3blockquote {
+    font-size: 2em;
+    line-height:1.4em;
+    color:gray;
+    font-style: italic;
+    margin-bottom: 1em;}
+
+#version3blockquote {
+    hanging-punctuation:first;
+    text-indent:-0.7em;}
+
+/* -- Block Quote citation CSS for version 3 --*/
+
+#version3 cite {
+    font-size:1.3em;
+    display: block;
+    margin-top: 1em;
+    margin-bottom: 2em;
+    color: gray;}
+
+hr {
+    height:1px;
+    background-color:#ff0066;
+    border:0,none;
+}
+
+blockquote::before{
+    content:"“";}
+
+blockquote::after{
+    content:"”";}
