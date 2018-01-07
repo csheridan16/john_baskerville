@@ -13,4 +13,4 @@ John Baskerville
 
 Baskerville Homework
 ----------------
-- [Baskerville Homework](https://csheridan16.github.io/john_baskerville/baskervillehwrk.html) 
+- [Baskerville Homework](https://csheridan16.github.io/john_baskerville/baskervillehwrk.html)

@@ -7,8 +7,6 @@
     line-height: 1em;
 }
 
-/* general styling */
-
 body {
     width: 75%;
     max-width: 700px;
@@ -74,7 +72,7 @@ hr {
 
 
 
-/* VERSION 1: Libre Baskerville */
+/* VERSION 1: */
 
 .ver1 {
     font-family: 'Libre Baskerville', serif;
@@ -87,7 +85,7 @@ hr {
 }
 
 
-/* VERSION 2: Open Sans */
+/* VERSION 2: */
 
 .ver2 {
     font-family: 'Open Sans', sans-serif;
@@ -113,7 +111,7 @@ hr {
 
 
 
-/* VERSION 3: Arvo */
+/* VERSION 3: */
 
 .ver3 {
     font-family: 'Arvo', serif;
