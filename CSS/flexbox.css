@@ -1,0 +1,404 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-size:100%;
+    line-height: 1.5em;}
+
+/* --- Body CSS --- */ 
+
+body {
+    width:70%;
+    margin:0 auto;
+    background: #f0f0f0;
+    color:#22424b;
+    line-height: 1.8em;}
+
+/* --- Heading CSS --- */
+
+h1, h2, h3 {
+    font-family: Libre Baskerville,'georgia',serif;
+    color: #4e7367;
+    font-weight: normal;
+    text-align: center;}
+
+/* --- Margin bottom and line height for paragarphs, list items, and block quotes --- */
+
+p,li{ 
+    margin-bottom: 2em;
+    line-height; 2.7em;
+    font-family: Raleway,'Arial', sans-serif;}
+
+#topsynopsis{
+    text-align: center;
+    margin-bottom:10em;
+    font-size:1.5em;}
+
+blockquote {
+    padding: 0em 3em 0em 3em;
+    font-size: 1.25em;
+    line-height:1.4em;
+    color:#777;}
+
+blockquote cite {
+    font-size:0.75em;
+}
+
+blockquote{ 
+    margin-bottom: 1.5em;
+    line-height; 1.5;
+    font-family: raleway, 'arial',sans-serif;
+    font-style:italic;
+}
+
+blockquote p {
+    hanging-punctuation:first;
+    text-indent:-0.3em;}
+
+cite {
+    display: block;
+    margin-top: 1em;}
+
+
+/* --- Font size and margins for heading 1 --- */
+
+h1 {
+    font-size:8em;
+    margin-top: 1.5em;}
+
+/* --- Font size and margins for heading 2 --- */
+
+h2 {
+    font-size:3.375em;
+    margin-bottom:0.6em;}
+
+/* --- Font size for heading 3 --- */
+
+h3 {
+    font-size:2.369em;}
+
+/* --- Font style change, margin bottom and colour for heading 2 within the header --- */
+
+header h2 {
+    font-style: italic;
+    color:#22424b;
+    font-size:4.5em;
+    margin-bottom: 2em;
+    line-height: 1.2em;}
+
+/* --- Colour of links --- */
+
+a:link {color:#4e7367;}
+
+/* --- Colour of links that have been clicked on --- */
+
+a:visited {
+    color:#4e7367;}
+
+/* --- Colour/decoration of links when hovered over --- */
+
+a:hover {color:#22424b;
+    text-decoration: underline;}
+
+/* --- Colour of links in navagation bar --- */
+
+nav a:link {color:white;}
+
+/* --- Colour of links in navagation bar when clicked on --- */
+
+nav a:visited {
+    color: white;}
+
+/* --- Colour/decoration of links in navagation bar when hovered over --- */
+
+nav a:hover {color:#7fa68c;
+    text-decoration: underline;}
+
+/* --- Removing decoration from links --- */
+
+a {text-decoration: none;
+    font-family: Libre Baskerville,'Georgia', serif;}
+
+/* --- Navigation bar CSS --- */
+
+nav { 
+    position:fixed;
+    top:0;
+    left:0;
+    margin;0;
+    width:100%;
+    background-color:#22424b;
+    padding: 1em 0;
+    z-index: 1;}
+
+/* --- CSS for navigation bar's unordered lists --- */
+
+nav ul {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 4px;}
+
+/* --- CSS for navigation bar's unordered list list items --- */
+
+nav ul li {
+    display: inline;
+    margin:30px;}
+
+/* --- CSS for images --- */
+
+img { display:block;
+    margin: 0 auto;
+    padding:0;
+    max-width: 100%;
+    margin-bottom: 3em;}
+
+/* --- CSS for footer --- */
+
+footer {
+    text-align: center;
+    font-size: 0.75em;
+    line-height:1.5em;
+    padding-top:1.5em;
+    padding-bottom:1em;}
+
+footer hr {
+    margin:3em 0;}
+
+/* --- CSS for div named bottom link --- */
+
+#bottom-link {
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom:0.5em;}
+
+#bottom-link a {
+    margin-left:15px;
+    margin-right:15px}
+
+/* --- CSS for tables --- */
+
+table{
+    margin: auto;
+    margin-bottom: 2em;
+    margin-top: 2em;
+    font-size: 1.25em;
+    display: table;
+    border-collapse: collapse;
+    border-spacing: 2px;}
+
+table, tr {
+    color: #22424b;}
+
+th {
+    text-transform: uppercase;
+    text-align: center;
+    background: #4e7367;
+    color:white;
+    font-family: Libre Baskerville, 'Georgia', serif;}
+
+th, td {
+    color:black;
+    padding: 0.7em;}
+
+table, td {
+    border: 1px, solid #fff;
+    font-family: Libre Baskerville, 'Georgia', serif}
+
+tr th {
+    color:#fff;
+    text-align: left;}
+
+/* --- Table title --- */
+
+caption {
+    font-size: 1.25em;
+    color: #4e7367;
+    margin-bottom:0.5em;
+    font-family: Libre Baskerville, 'Georgia', serif;}
+
+
+/* --- Margin seperating horizontal row and links at bottom of page ---- */
+
+#bottom-link {
+    margin-top:1.5em;}
+    
+}
+
+
+
+=================================================================================
+
+    article {
+        display: flex;
+}
+
+    .mrseavescontainer{
+        flex:1;
+        padding-left: 3em;}
+
+    .themancontainer {
+        flex:2;}
+
+@media (max-width:1600px) {
+    
+    header h1 {
+        font-size:6.5em;}
+    
+    header h2 {
+        font-size:3.5em;
+        margin-bottom: 3em;}
+}
+
+@media (max-width:1366px) {
+    
+    header h1 { 
+        font-size: 6em;
+        margin-top: 1em;}
+    
+    header h2 {
+        margin-bottom:1em;
+        margin-top: 1em;}
+    
+}
+
+@media (max-width:1280px) {
+
+    .mrseavescontainer{
+        flex:2;
+        padding-left: 3em;}
+
+    .themancontainer {
+        flex:3;}
+    
+    header h1 {
+        margin-top:1.5em;
+        font-size:5.5em;}
+    
+    header h2 {
+        font-size:3.5em;
+        margin-bottom: 2em;}
+    
+    #topsynopsis {
+        font-size:1.4em;}
+    
+    blockquote {
+        font-size:1.2em;
+        padding: 0em;}
+
+@media (max-width:800px) {
+    
+    body{
+        width:85%;}
+    
+    .mrseavescontainer {
+        margin-left:0em;
+        padding:0em;}
+
+     article {
+        flex-direction: column;}
+
+    header h1 {
+        font-size:4em;
+        margin-top: 2em;}
+    
+    header h2 {
+        font-size:2em;
+        margin-bottom: 2em;}
+    
+    #topsynopsis {
+        font-size:1.3em;
+        margin-bottom: 5em;}
+    
+     table {
+        font-size:1em;}
+}
+    
+@media (max-width:600px) {
+
+    nav ul li {
+        font-size:1em;}
+    
+    
+    nav ul li {
+        margin:10px;}
+    
+    h2 {
+        font-size:2em;}
+    
+    header h1 {
+        font-size:3em;
+        margin-top: 2.5em;}
+    
+    header h2 {
+        font-size:2em;
+        margin-bottom: 2em;}
+    
+    #topsynopsis {
+        font-size:1em;
+        margin-bottom: 5em;}
+        
+    #bottom-link {
+        font-size:0.9em;}
+    
+    #bottom-link a {
+    margin-left:7px;
+    margin-right:7px;}
+    
+    }
+    
+@media (max-width:480px) {
+       
+    nav {
+        font-size:0.9em;}
+    
+    nav ul li {
+        margin:5px;
+        letter-spacing: 1px;}
+    
+    header h1 {
+        font-size:2.5em;
+        margin-top:2em;}
+    
+    blockquote {
+        font-size:1.1em;
+        padding: 0em;}
+    
+    #bottom-link {
+        width:100%;
+        font-size:0.8em;}
+    
+    #bottom-link a {
+        margin-left:5px;
+        margin-right:5px;}
+    
+    }
+    
+@media (max-width:360px) {
+    
+    table {
+        font-size:0.8em;}
+    
+    p {
+        font-size:0.8em;}
+    
+    #topsynopsis {
+        font-size:0.9em;
+        margin-bottom:3em;}
+    
+    #bottom-link {
+        font-size:0.6em;}
+    
+    #bottom-link a {
+        margin-left:3px;
+        margin-right:3px;}
+    
+    nav {
+        font-size:0.7em;}
+    
+    header h1 {
+        margin-top:1.5em;}
+    
+    header h2 {
+        margin-bottom:1em;}
+    
+    }
+    

@@ -14,7 +14,8 @@ body {width: 75%;
     background: #f0f0f0f0;
     color: #333;
     line-height: 1.8em;}
-    
+
+
 head {margin: 6em 3em. 60em, 0}
 
  h1, h3 {
@@ -37,9 +38,24 @@ blockquote {
     margin-bottom: -0em;
 }
 
-.aside {font-size: 0.75em;}
-.aside h2 {text-align: left}
+.mrseavescontainer{
+        flex:1;
+        padding-left: 3em;}
 
+    .themancontainer {
+        flex:2;}
+
+ .mrseavescontainer{
+        flex:2;
+        padding-left: 3em;}
+
+.mrseavescontainer {
+        margin-left:0em;
+        padding:0em;}
+
+    .themancontainer {
+        flex:3;}
+    
 
 /*-----------FONTS------------*/
 
@@ -223,6 +239,21 @@ table, td {
    border: 1px solid #fff;
 } 
 
+
+#bottom-link {
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 1.5em;
+    margin-top: 1em
+    }
+
+#bottom-link a {
+    margin-left:15px;
+    margin-right:15px;
+    color: #c06;
+    font-size: 1.6em;
+    
+}
 
 /*---------- FOOTER ---------- */
 
