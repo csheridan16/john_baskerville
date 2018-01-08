@@ -15,4 +15,3 @@ Baskerville Homework
 ----------------
 - [Baskerville Homework](https://csheridan16.github.io/john_baskerville/baskervillehwrk.html)
 
--[Paul Rand](https://csheridan16.github.io/john_baskerville/paulrand.html)
